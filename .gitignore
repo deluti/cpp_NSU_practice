@@ -1,0 +1,4 @@
+*.exe
+hyp
+a.out
+*.o
