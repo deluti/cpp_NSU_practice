@@ -1,7 +1,8 @@
 // Main
 
 #include <iostream>
-#include "header.hpp"
+#include "hyp.hpp"
+#include "hypMod.hpp"
 
 int main() {
     int a, b;

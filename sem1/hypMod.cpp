@@ -1,13 +1,9 @@
 // source
 
-#include "header.hpp"
-#include <cmath>
+#include "hypMod.hpp"
+#include "hyp.hpp"
 #include <random>
 #include <ctime>
-
-double hypotenuse(int a, int b){
-    return std::sqrt(a*a + b*b);
-} 
 
 double hypotenuseMod(int a, int b){
     double hyp = hypotenuse(a, b);
