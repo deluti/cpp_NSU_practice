@@ -2,4 +2,4 @@
 
 #pragma once
 
-double hypotenuseMod(int a, int b);
+int hypotenuseMod(int a, int b);

@@ -5,8 +5,8 @@
 #include <random>
 #include <ctime>
 
-double hypotenuseMod(int a, int b){
-    double hyp = hypotenuse(a, b);
+int hypotenuseMod(int a, int b){
+    int hyp = hypotenuse(a, b);
 
     static std::mt19937 gen(static_cast<unsigned>(std::time(nullptr)));
 

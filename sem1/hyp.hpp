@@ -2,4 +2,4 @@
 
 #pragma once
 
-double hypotenuse(int a, int b);
+int hypotenuse(int a, int b);
